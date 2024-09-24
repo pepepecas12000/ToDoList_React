@@ -1,0 +1,37 @@
+.inputs {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+    
+  }
+  
+  .task {
+    flex-grow: 1;
+    padding: 10px;
+    margin-right: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    transition: border-color 0.3s ease;
+    width: 350px;
+  }
+  
+  .task:focus {
+    border-color: #007bff;
+    outline: none;
+  }
+  
+  .botondeenvio {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .botondeenvio:hover {
+    background-color: #0056b3;
+  }
