@@ -4,5 +4,12 @@ width: 100px;
 height: 300px;
 }
 header{
-    border: 10px solid blue;
+    border: 1px solid rgb(35, 87, 137);
+    background-color: rgba(81, 81, 61);
+    
+}
+#todo{
+    color: rgb(240, 248, 255);
+    font-family: "Roboto",sans-serif;
+    font-size: 42px;
 }

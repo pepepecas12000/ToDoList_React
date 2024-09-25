@@ -11,7 +11,7 @@ function Header(props){// props para regresar varios argumentos,en caso de solo 
     // Declaracion del retorno , debe de ser jsx con un elemento padre... por lo regular 
   return(
 <header>
-  <h1>To Do List</h1>
+  <h1 id='todo'>To Do List</h1>
 </header> 
 
 )

@@ -26,7 +26,7 @@ function TaskImput({setTareas}){
             }>
 
         </Input>
-        <Button id="sumit" className="botondeenvio"  variant="contained" size="medium" onClick={agregar}>
+        <Button id="sumit" className="botondeenvio"  variant="contained" size="large" onClick={agregar}>
           Enviar
         </Button>
         

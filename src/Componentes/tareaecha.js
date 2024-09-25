@@ -2,14 +2,14 @@ import './listascomponentes.css';
 function TareasEchas({echos}){
     return (
         <div>
-        <h1>Esta son las tareas pendientes</h1>
+        <h1>Tareas Hechas :D</h1>
            <div className="contegeneral"> 
            {Array.isArray(echos) && echos.length > 0 ? (
                     echos.map((he) => (
-                        <div className='comptarea'><p className="textarea">{he}</p></div>
+                        <div className='comptarea'><p className="tareae">{he}</p></div>
                     ))
                 ) : (
-                    <p>No hay tareas hechas.</p>
+                    <p id='no'>No hay tareas hechas.</p>
                 )}
             </div>
 
