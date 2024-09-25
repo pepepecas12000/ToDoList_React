@@ -2,9 +2,9 @@ import './navbar.css';
 function Navbar(){
 return(
     <div id='navbar'>
-        <button id='Blist' className='Bnav'><a href="/"><h1>Listas de tareas</h1></a>
+        <button id='Blist' className='Bnav'><a href="/" className='textboton'>Listas de tareas</a>
         </button>
-    <button id='Bcont' className='Bnav'><a href="/contactos" >Contactos</a>
+    <button id='Bcont' className='Bnav'><a href="/contactos" className='textboton' >Contactos</a>
            </button>
                 
     </div>
